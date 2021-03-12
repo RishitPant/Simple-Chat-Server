@@ -4,7 +4,7 @@ import threading
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 port = 12321
 
-server.bind(('127.0.0.1', port))
+server.bind(('', port))
 server.listen()
 
 client_names = []
