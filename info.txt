@@ -1,0 +1,10 @@
+-Open Server.py
+-Then Open Client.py
+
+
+-A simple Local Network Chat Server.
+
+-To Connect with remote servers, disable Firewalls and 
+ Windows defender on both server PC and remote client PC.
+
+-Thanks!
