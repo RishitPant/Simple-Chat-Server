@@ -6,5 +6,6 @@
 
 -To Connect with remote servers, disable Firewalls and 
  Windows defender on both server PC and remote client PC.
+-Enter Hosts IP address in Client.py script before running.
 
 -Thanks!
