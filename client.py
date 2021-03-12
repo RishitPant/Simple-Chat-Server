@@ -2,7 +2,7 @@ import socket
 import threading
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client.connect(('127.0.0.1', 12321))
+client.connect(('', 12321)) # In the '' Enter hosts IP Address
 
 def recieve():
     while True:
