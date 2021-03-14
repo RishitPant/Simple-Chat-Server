@@ -8,7 +8,7 @@ def recieve():
     while True:
         try:
             message = client.recv(1024).decode("ascii")
-            if message == 'NICK':
+            if message == 'YO':
                 client.send(name.encode("ascii"))
             else:
                 print(message)
